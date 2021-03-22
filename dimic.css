@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(34, 110, 57);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+    .main_container {
+     position: relative;
+    }
+
+    /* Navigacija */
+    .navbar {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+
+        
+    }
+
+    .logo a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+
+    .navbar .navbar_items ul {
+        display: flex;
+    }
+
+    .navbar .navbar_items ul li {
+        text-transform: uppercase;
+        margin: 0 10px;
+    }
+
+    .navbar .navbar_items ul li a {
+        color: rgb(238, 13, 13);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        font-style: italic;
+        background-color: aquamarine;
+        
+    }
+
+    .banner_image {
+        background: url("background.jpg") no-repeat top center;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_content {
+        text-align: center;
+        color: #6b28a1;
+    }
+
+    .banner_content h1 {
+        text-transform: uppercase;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+
+    .banner_content h1 span {
+        color: #0d9b2b;
+    }
+
+    .about {
+        padding: 5% 10%;
+        text-align: center;
+    }
+
+    h1.title {
+        margin-bottom: 20px;
+        color: rgb(185, 211, 39);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+        font-size: 38px;
+        word-spacing: 25px;
+        letter-spacing: 5px;
+    }
+
+    .btn a {
+        display: block;
+        width: 180px;
+        height: 35px;
+        border: 2px solid black;
+        line-height: 35px;
+        margin: 0 auto;
+        color: rgb(0, 61, 0);
+        text-align: center;
+        text-decoration: underline;
+    }
+    .proizvodi {
+        padding: 5% 10%;
+        text-align: center;
+    }
+
+    /* Proizvodi */
+
+    .proizvodi {
+        background: rgb(103, 153, 219)
+    }
+
+    .diff_proizvodi {
+        display: flex;
+        margin-bottom: 35px;
+        justify-content: space-between;
+    }
+
+    .diff_proizvodi_item {
+        width: 30%;
+    }
+
+    .diff_proizvodi_item img {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .diff_proizvodi_item h3 {
+        color: rgb(0, 0, 0);
+        margin-bottom: 15px;
+    }
+
+    .kupovina {
+        padding: 5% 10%;
+        text-align: center;
+    }
+
+    /* Kupovina */
+    .form_input {
+        margin-bottom: 15px;
+    }
+
+    .form_input input[type="text"] {
+        width: 250px;
+        padding: 12px 20px;
+        border: 1px solid #cccccc;
+    }
+
+    .form_input textarea {
+        width: 250px;
+        padding: 12px 20px;
+        height: 80px;
+        border: 1px solid #cccccc;
+        resize: none;
+    }
+
+    .lokacija {
+        padding: 5% 10%;
+        text-align: center;
+    }
+
+    /* Lokacija */
+
+    .lokacija {
+        background: rgb(140, 142, 168)
+    }
+
+    .diff_lokacija {
+        display: flex;
+        margin-bottom: 35px;
+        justify-content: space-between;
+    }
+
+    .diff_lokacija_item {
+        width: 95%;
+    }
+
+    .diff_lokacija_item img {
+        width: 95%;
+        margin-bottom: 35px;
+        resize: vertical;
+    }
+
+    .diff_lokacija_item h3 {
+        color: rgb(0, 0, 0);
+        margin-bottom: 15px;
+    }
+
+    .kontakttim {
+        padding: 5% 10%;
+        text-align: center;
+    }
+
+    /* kontakt tim */
+
+    .kontakttim {
+        background-color: #079653;
+    }
+
+    .kontakttim_wrapper .tim {
+        display:flex ;
+        justify-content: space-between;
+    }
+
+    .kontakttim_wrapper .tim-1 {
+        margin-bottom: 25px;
+    }
+
+    .kontakttim_wrapper .tim_member {
+        width: 30%;
+        height: auto;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .kontakttim_wrapper .tim_member img {
+        width: 100%;
+        display: block;
+        height: auto;
+        transition: all 0.75s ease;
+    }
+    
+    .kontakttim_wrapper .tim_member:hover img {
+        transform: scale(1.1);
+    }
